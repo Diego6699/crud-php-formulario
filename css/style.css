@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* cabecallho */
+.cabecalho-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 60px;
+    width: 100%;
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 80%;
+}
+.navbar ol {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.navbar ol li {
+    margin: 0 10px 0 10px;
+}
+
+/*botao de adiciconar dados */
+
+.botao-adicionar-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.botao-adicionar {
+
+}
+/* conteudo da main */
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 80%;
+}
