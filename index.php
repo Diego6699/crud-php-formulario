@@ -19,7 +19,7 @@
             <div class="container">
                 <div class="botao-adicionar-container">
                     <div class="botao-adicionar">
-                        <button><a href="formulario" target="_blank" rel="noopener noreferrer">Adiconar</a></button>
+                        <button><a href="formulario.php" target="_blank" rel="noopener noreferrer">Adicionar</a></button>
                     </div>
                 </div>
 
@@ -57,7 +57,7 @@
                                 <td><?= $nome ?></td>
                                 <td><?= $idade ?></td>
                                 <td>
-                                    <form action="editar.php" method="post">
+                                    <form action="editar-formulario.php" method="post">
                                         <input type="hidden" name="id" value="<?= $id ?>">
                                         <input type="submit" value="Editar">
                                     </form>
